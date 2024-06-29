@@ -63,7 +63,9 @@ export const getAppId = () => {
             app_id = 62017;
         } else if (/DollarHub-sgi9\.vercel\.app/i.test(window.location.hostname)) {
             app_id = 53209;
-        } else {
+        } else if (/forex-daddy\.com/i.test(window.location.hostname)) {
+            app_id = 62385;
+        }else {
             window.localStorage.setItem('config.default_app_id', user_app_id);
             app_id = user_app_id;
         }
