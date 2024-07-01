@@ -63,7 +63,7 @@ const AppWrapper = observer(() => {
     const init_render = React.useRef(true);
     const { ui } = useStore();
     const { url_hashed_values, is_mobile } = ui;
-    const hash = ['dashboard', 'bot_builder', 'dhubbots', 'copy_trader', 'chart', 'tutorial'];
+    const hash = ['dashboard', 'bot_builder', 'dhubbots', 'chart','copy_trader', 'analysis', 'tutorial'];
 
     let tab_value: number | string = active_tab;
     const GetHashedValue = (tab: number) => {
@@ -215,6 +215,14 @@ const AppWrapper = observer(() => {
 
                         <div icon='IcClient' label={<Localize i18n_default_text='Copy Trader' />} id={'id-copy-trader'}>
                             <CopyTrader />
+                        </div>
+
+                        <div
+                            icon='IcDbotViewDetail'
+                            label={<Localize i18n_default_text='Market Analysis' />}
+                            id={'id-analysis-page'}
+                        >
+                            <AnalysisPage />
                         </div>
 
                         <div
