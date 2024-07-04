@@ -127,10 +127,14 @@ const Interpreter = () => {
 
         js_interpreter.setProperty(
             pseudo_bot_interface,
-            'apollo_purchase',
+            'purchase',
             createAsync(js_interpreter, bot_interface.purchase)
         );
-        js_interpreter.setProperty(pseudo_bot_interface, 'enableVH', createAsync(js_interpreter, bot_interface.enabaleVH));
+        js_interpreter.setProperty(
+            pseudo_bot_interface,
+            'enableVH',
+            createAsync(js_interpreter, bot_interface.enabaleVH)
+        );
         js_interpreter.setProperty(
             pseudo_bot_interface,
             'sellAtMarket',

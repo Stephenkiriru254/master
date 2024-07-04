@@ -29,7 +29,7 @@ export const parts = {
     tickTrade: `${init()}; ${start('duration: 5, duration_unit: "t"')};`,
     waitToPurchase: `
         watch('before');
-        Bot.apollo_purchase('CALL');
+        Bot.purchase('CALL');
   `,
     waitToSell: `
         while (watch('during')) {

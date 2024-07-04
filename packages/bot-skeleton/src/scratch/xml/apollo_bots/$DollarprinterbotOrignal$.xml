@@ -390,7 +390,7 @@
   </block>
   <block type="before_purchase" id="SY:n-]Ol4A:4EFY].$Rz" collapsed="true" deletable="false" x="0" y="852">
     <statement name="BEFOREPURCHASE_STACK">
-      <block type="apollo_purchase" id="pz4B)b/8e*r,0oYc73FI">
+      <block type="purchase" id="pz4B)b/8e*r,0oYc73FI">
         <field name="PURCHASE_LIST">DIGITOVER</field>
       </block>
     </statement>

@@ -50,12 +50,7 @@ export const validateErrorOnBlockDelete = () => {
     const blockX = blockRect?.left || 0;
     const blockY = blockRect?.top || 0;
     const mandatory_trade_option_block = getSelectedTradeType();
-    const required_block_types = [
-        mandatory_trade_option_block,
-        'trade_definition',
-        'apollo_purchase',
-        'before_purchase',
-    ];
+    const required_block_types = [mandatory_trade_option_block, 'trade_definition', 'purchase', 'before_purchase'];
     if (required_block_types?.includes(Blockly?.selected?.type)) {
         if (
             blockY >= translate_Y - translate_offset &&
@@ -75,17 +70,17 @@ const subPageValue = () => {
     return analysisPage;
 };
 
-export const updateWorkspaceName = (active_tab) => {
+export const updateWorkspaceName = active_tab => {
     document.title = 'DollarHub';
     if (!DBotStore?.instance) return;
     const { load_modal } = DBotStore.instance;
     const file_name = load_modal?.dashboard_strategies?.[0]?.name ?? config.default_file_name;
 
-    if(subPageValue() === 'analysis_page'){
+    if (subPageValue() === 'analysis_page') {
         document.title += ` - ${subPageValue()}`;
         return;
     }
-    if(active_tab == 3){
+    if (active_tab == 3) {
         document.title += ` - ATrader`;
         return;
     }

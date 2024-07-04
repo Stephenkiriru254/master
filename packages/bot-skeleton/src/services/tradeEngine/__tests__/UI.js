@@ -43,7 +43,7 @@ expectReturnTrue(
         }
 
 before_purchase = function before_purchase(){
-      Bot.apollo_purchase('CALL');
+      Bot.purchase('CALL');
 
   };
 

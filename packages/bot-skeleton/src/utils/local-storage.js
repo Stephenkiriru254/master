@@ -12,7 +12,7 @@ export const saveWorkspaceToRecent = async (xml, save_type = save_types.UNSAVED)
     // Ensure strategies don't go through expensive conversion.
     xml.setAttribute('is_dbot', true);
     const newBlocks = updateApolloXML(xml);
-    xml = newBlocks
+    xml = newBlocks;
     const {
         load_modal: { updateListStrategies },
         save_modal,
@@ -86,7 +86,7 @@ export const updateApolloXML = xml => {
 
         // Check if the 'type' attribute's value is 'purchase' and update it if so
         if (typeAttr && typeAttr.value === 'purchase') {
-            typeAttr.value = 'apollo_purchase';
+            typeAttr.value = 'purchase';
         }
     });
 
