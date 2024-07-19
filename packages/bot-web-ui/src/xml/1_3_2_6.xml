@@ -102,7 +102,7 @@
   </block>
   <block type="before_purchase" id="y,P08}2[`%(nm}Ppw5Ia" deletable="false" x="0" y="576">
     <statement name="BEFOREPURCHASE_STACK">
-      <block type="purchase" id="hKcb{5|[U)NBAGk`sv-u">
+      <block type="apollo_purchase" id="hKcb{5|[U)NBAGk`sv-u">
         <field name="PURCHASE_LIST">CALL</field>
       </block>
     </statement>

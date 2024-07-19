@@ -37,7 +37,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="purchase" id="g:BKQ+hl@Q+dz9Bu{SS;">
+          <block type="apollo_purchase" id="g:BKQ+hl@Q+dz9Bu{SS;">
             <field name="PURCHASE_LIST">CALL</field>
           </block>
         </statement>
@@ -59,7 +59,7 @@
               </block>
             </value>
             <statement name="DO0">
-              <block type="purchase" id="a[eV./hmXC:;dr*VbM/f">
+              <block type="apollo_purchase" id="a[eV./hmXC:;dr*VbM/f">
                 <field name="PURCHASE_LIST">CALL</field>
               </block>
             </statement>

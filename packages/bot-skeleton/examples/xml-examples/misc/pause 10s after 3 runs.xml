@@ -47,7 +47,7 @@
           </block>
         </value>
         <next>
-          <block type="purchase" id="HFL@|cf$e$,?Mh=x9g0E">
+          <block type="apollo_purchase" id="HFL@|cf$e$,?Mh=x9g0E">
             <field name="PURCHASE_LIST">CALL</field>
           </block>
         </next>

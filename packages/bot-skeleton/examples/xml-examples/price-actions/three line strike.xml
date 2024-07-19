@@ -363,7 +363,7 @@
       </block>
     </value>
     <statement name="DO0">
-      <block type="purchase" id="%+gfa9UQ0IUYc*o/j}:x" disabled="true">
+      <block type="apollo_purchase" id="%+gfa9UQ0IUYc*o/j}:x" disabled="true">
         <field name="PURCHASE_LIST">CALL</field>
       </block>
     </statement>

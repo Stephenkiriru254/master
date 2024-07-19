@@ -128,7 +128,7 @@
   </block>
   <block type="before_purchase" id="*v%y[=?rCL/ooa5`1q[O" deletable="false" x="0" y="648">
     <statement name="BEFOREPURCHASE_STACK">
-      <block type="purchase" id="D;n(rizeW,x;BKmi!v%k">
+      <block type="apollo_purchase" id="D;n(rizeW,x;BKmi!v%k">
         <field name="PURCHASE_LIST">CALL</field>
       </block>
     </statement>

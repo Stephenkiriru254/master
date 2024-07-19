@@ -110,7 +110,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="purchase" id=";I2|,??afq#)HEkF3]*u">
+          <block type="apollo_purchase" id=";I2|,??afq#)HEkF3]*u">
             <field name="PURCHASE_LIST">CALL</field>
           </block>
         </statement>
@@ -157,7 +157,7 @@
               </block>
             </value>
             <statement name="DO0">
-              <block type="purchase" id="c?5CbM4+N?@?op6^rO{_">
+              <block type="apollo_purchase" id="c?5CbM4+N?@?op6^rO{_">
                 <field name="PURCHASE_LIST">PUT</field>
               </block>
             </statement>
@@ -210,12 +210,12 @@
                           </block>
                         </value>
                         <statement name="DO0">
-                          <block type="purchase" id="pVyC7LW0nbC..p^*8E~=">
+                          <block type="apollo_purchase" id="pVyC7LW0nbC..p^*8E~=">
                             <field name="PURCHASE_LIST">CALL</field>
                           </block>
                         </statement>
                         <statement name="ELSE">
-                          <block type="purchase" id="tLQ^t;d^kLLKAyl?lp@Q">
+                          <block type="apollo_purchase" id="tLQ^t;d^kLLKAyl?lp@Q">
                             <field name="PURCHASE_LIST">PUT</field>
                           </block>
                         </statement>
@@ -243,12 +243,12 @@
                           </block>
                         </value>
                         <statement name="DO0">
-                          <block type="purchase" id="LbV3$mpE-GW{7YSA5X#!">
+                          <block type="apollo_purchase" id="LbV3$mpE-GW{7YSA5X#!">
                             <field name="PURCHASE_LIST">PUT</field>
                           </block>
                         </statement>
                         <statement name="ELSE">
-                          <block type="purchase" id="!pB9?X+8_Hs`DUIX_^7#">
+                          <block type="apollo_purchase" id="!pB9?X+8_Hs`DUIX_^7#">
                             <field name="PURCHASE_LIST">CALL</field>
                           </block>
                         </statement>

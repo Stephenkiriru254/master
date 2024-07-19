@@ -86,7 +86,7 @@ export const updateApolloXML = xml => {
 
         // Check if the 'type' attribute's value is 'purchase' and update it if so
         if (typeAttr && typeAttr.value === 'purchase') {
-            typeAttr.value = 'purchase';
+            typeAttr.value = 'apollo_purchase';
         }
     });
 

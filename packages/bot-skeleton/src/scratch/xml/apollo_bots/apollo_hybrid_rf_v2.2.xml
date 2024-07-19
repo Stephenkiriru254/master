@@ -472,7 +472,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="purchase" id="@ptJw?eU{;vqBXez8Kvb">
+          <block type="apollo_purchase" id="@ptJw?eU{;vqBXez8Kvb">
             <field name="PURCHASE_LIST">DIGITOVER</field>
           </block>
         </statement>
@@ -524,7 +524,7 @@
                   </block>
                 </value>
                 <statement name="DO0">
-                  <block type="purchase" id="9M*.$eKi]ftnO}BJ,,a%">
+                  <block type="apollo_purchase" id="9M*.$eKi]ftnO}BJ,,a%">
                     <field name="PURCHASE_LIST">DIGITUNDER</field>
                   </block>
                 </statement>
@@ -544,7 +544,7 @@
                   </block>
                 </value>
                 <statement name="DO1">
-                  <block type="purchase" id="Jb34O=/.I($T)mi,`aus">
+                  <block type="apollo_purchase" id="Jb34O=/.I($T)mi,`aus">
                     <field name="PURCHASE_LIST">DIGITUNDER</field>
                   </block>
                 </statement>

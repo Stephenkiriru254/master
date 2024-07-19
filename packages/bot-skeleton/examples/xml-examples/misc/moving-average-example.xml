@@ -55,12 +55,12 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="purchase" id="Q;`vp48|v7pG%t@W6`uQ">
+          <block type="apollo_purchase" id="Q;`vp48|v7pG%t@W6`uQ">
             <field name="PURCHASE_LIST">CALL</field>
           </block>
         </statement>
         <statement name="ELSE">
-          <block type="purchase" id="I7[;%mCnp(:=ynp:h/i#">
+          <block type="apollo_purchase" id="I7[;%mCnp(:=ynp:h/i#">
             <field name="PURCHASE_LIST">PUT</field>
           </block>
         </statement>
